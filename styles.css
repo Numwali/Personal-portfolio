@@ -125,3 +125,16 @@ ul{
  font-weight: bold;
  text-transform: uppercase;
 }
+
+/*Contact Part*/
+#contact {
+ background-color: #222;
+ color: #fff;
+ padding: 50px 20px;
+ text-align: center;
+}
+
+#contact h2{
+ font-size: 2rem;
+ margin-bottom: 10px;
+}
