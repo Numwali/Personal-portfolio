@@ -126,41 +126,58 @@ ul{
  text-transform: uppercase;
 }
 
-/*Contact Part*/
-#contact {
- background-color: #222;
- color: #fff;
- padding: 50px 20px;
+/*footer Part*/
+footer {
+ background-color: #2b2e4a; 
+ color: #ffffff; 
  text-align: center;
+ padding: 20px;
+ font-family: 'Arial', sans-serif;
 }
 
-#contact h2{
- font-size: 2rem;
+.footer-content h2 {
+ font-size: 1.8rem;
  margin-bottom: 10px;
 }
 
-#contact .social-icons {
- margin: 20px 0;
+.footer-content p {
+ font-size: 1rem;
+ margin-bottom: 20px;
+ color: #dddddd;
+}
+
+.social-icons {
  display: flex;
  justify-content: center;
- gap: 20px;
+ gap: 15px;
+ margin-bottom: 20px;
 }
 
-#contact .social-icons a {
- background-color: #333;
- padding: 10px 20px;
- border-radius: 5px;
- color: #fff;
+.social-link {
+ color: #ffffff;
+ text-decoration: none;
  font-size: 1rem;
- transition: background-color 0.3s;
+ display: flex;
+ align-items: center;
+ gap: 8px;
 }
 
-#contact .social-icons a:hover {
- background-color: #a62639;
+.social-icon i {
+ font-size: 1.2rem;
 }
 
-.disclaimer {
- font-size: 0.8rem;
- color: #bbb;
- margin-top: 30px;
+.social-icon:hover {
+ color: #ff4d4d; 
+}
+
+/* Footer notes */
+.footer-note {
+ border-top: 1px solid #ff4d4d;
+ padding-top: 15px;
+ font-size: 0.9rem;
+ color: #dddddd;
+}
+
+.footer-note p {
+ margin: 5px 0;
 }
