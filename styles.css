@@ -45,3 +45,23 @@ ul{
  font-weight:bold;
  text-transform: uppercase;
 }
+
+#hero{
+ height:100vh;
+ display: flex;
+ align-items:center;
+ justify-content:center;
+ background:linear-gradient(135deg, #333, #222);
+ color:#fff;
+ text-align:center;
+}
+
+#hero .hero-content h1{
+ font-size:3 rem;
+ margin:0;
+}
+
+#hero .hero-content .subtitle{
+ font-size:1.5rem;
+ color:#a62639;
+}
