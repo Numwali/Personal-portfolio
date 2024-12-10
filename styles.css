@@ -158,3 +158,9 @@ ul{
 #contact .social-icons a:hover {
  background-color: #a62639;
 }
+
+.disclaimer {
+ font-size: 0.8rem;
+ color: #bbb;
+ margin-top: 30px;
+}
