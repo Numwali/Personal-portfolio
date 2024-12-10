@@ -138,3 +138,23 @@ ul{
  font-size: 2rem;
  margin-bottom: 10px;
 }
+
+#contact .social-icons {
+ margin: 20px 0;
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+}
+
+#contact .social-icons a {
+ background-color: #333;
+ padding: 10px 20px;
+ border-radius: 5px;
+ color: #fff;
+ font-size: 1rem;
+ transition: background-color 0.3s;
+}
+
+#contact .social-icons a:hover {
+ background-color: #a62639;
+}
