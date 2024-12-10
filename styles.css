@@ -65,3 +65,63 @@ ul{
  font-size:1.5rem;
  color:#a62639;
 }
+
+/*the projects*/
+#wowrk {
+ background-color:  #42526E;
+ color:#fff;
+ text-align:center;
+ padding:50px 20px;
+}
+
+#work h2 {
+ font-size:2rem;
+ margin-bottom:30px;
+ border-bottom:2px solid #fff;
+ display: inline-block;
+}
+
+.projects-container {
+ display: flex;
+ flex-wrap:wrap;
+ gap:20px;
+ justify-content: center;
+}
+
+.projects-card {
+ background-color: #fff;
+ color: #333;
+ width:300px;
+ border-radius: 8px;
+ overflow:hidden;
+ text-align: center;
+ transition: transform 0.3s;
+}
+
+.project-card img {
+ width: 100%;
+ height: auto;
+}
+
+.project-card p {
+ margin: 10px 0;
+ font-size: 1.2rem;
+ font-weight: bold;
+}
+
+
+.project-card:hover {
+ transform: scale(1.05);
+}
+
+.show-all {
+ background-color: #a62639;
+ color: #fff;
+ padding: 10px 20px;
+ margin-top: 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-weight: bold;
+ text-transform: uppercase;
+}
